@@ -3,12 +3,10 @@
 A small end-to-end product analytics pipeline, built to learn how the job is
 actually done: raw event logs in, SQL in the middle, decisions out.
 
-The data is **simulated**. No fintech publishes sign-up and transaction logs,
-so `src/generate_data.py` creates 20,000 users with a realistic funnel, a
+The data is **simulated**.  `src/generate_data.py` creates 20,000 users with a realistic funnel, a
 retention curve that decays, and an embedded A/B test. Every effect in the
 data is planted deliberately and documented in that file, which means each
-analysis can be checked against a known answer. That turned out to be the
-most useful part of the project.
+analysis can be checked against a known answer. 
 
 ![Cohort retention](results/cohort_retention.png)
 
