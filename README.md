@@ -1,7 +1,6 @@
 # Fintech Product Analytics
 
-A small end-to-end product analytics pipeline, built to learn how the job is
-actually done: raw event logs in, SQL in the middle, decisions out.
+A small end-to-end product analytics pipeline.
 
 The data is **simulated**.  `src/generate_data.py` creates 20,000 users with a realistic funnel, a
 retention curve that decays, and an embedded A/B test. Every effect in the
